@@ -8,5 +8,11 @@ public class HospitalApp {
                 new Pharmacist("P001", 40),
                 new LaboratoryTechnician("L001", 38)
         };
+
+        for (MedicalStaff staff : staffMembers) {
+            staff.displayCommonInfo();
+            staff.performDuty();
+            System.out.println();
+        }
     }
 }
