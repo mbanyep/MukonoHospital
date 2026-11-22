@@ -9,6 +9,8 @@ public abstract class MedicalStaff {
         this.employeeId = employeeId;
         this.department = department;
         this.workingHours = workingHours;
+
     }
+    public abstract void performDuty();
 
 }
